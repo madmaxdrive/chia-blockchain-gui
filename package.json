@@ -1,8 +1,8 @@
 {
-  "name": "chia-blockchain",
+  "name": "madmax-blockchain",
   "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "GUI for Chia Blockchain",
-  "productName": "Chia Blockchain",
+  "description": "GUI for Madmax Blockchain",
+  "productName": "Madmax Blockchain",
   "private": true,
   "homepage": "./",
   "main": "build/electron/main.js",

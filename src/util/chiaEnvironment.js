@@ -72,6 +72,7 @@ const getChiaVersion = () => {
 };
 
 const startChiaDaemon = () => {
+  let ready = Promise.resolve();
   let script = getScriptPath(PY_DIST_FILE);
   let processOptions = {};
   //processOptions.detached = true;
@@ -96,29 +97,37 @@ const startChiaDaemon = () => {
   if (pyProc != null) {
     pyProc.stdout.setEncoding('utf8');
 
-    pyProc.stdout.on('data', function (data) {
-      if (!have_cert) {
-        process.stdout.write('No cert\n');
-        // listen for ssl path message
-        try {
-          let str_arr = data.toString().split('\n');
-          for (var i = 0; i < str_arr.length; i++) {
-            let str = str_arr[i];
-            try {
-              let json = JSON.parse(str);
-              global.cert_path = json['cert'];
-              global.key_path = json['key'];
-              if (cert_path && key_path) {
-                have_cert = true;
-                process.stdout.write('Have cert\n');
-                return;
-              }
-            } catch (e) {}
-          }
-        } catch (e) {}
-      }
+    ready = new Promise(resolve => {
+      pyProc.stdout.on('data', function (data) {
+        if (!have_cert) {
+          process.stdout.write('No cert\n');
+          // listen for ssl path message
+          try {
+            let str_arr = data.toString().split('\n');
+            for (var i = 0; i < str_arr.length; i++) {
+              let str = str_arr[i];
+              try {
+                let json = JSON.parse(str);
+                if (json['daemon_port']) {
+                  global.daemon_rpc_ws = `wss://localhost:${json['daemon_port']}`;
+                  continue;
+                }
 
-      process.stdout.write(data.toString());
+                global.cert_path = json['cert'];
+                global.key_path = json['key'];
+                if (cert_path && key_path) {
+                  have_cert = true;
+                  process.stdout.write('Have cert\n');
+                  resolve();
+                  return;
+                }
+              } catch (e) {}
+            }
+          } catch (e) {}
+        }
+
+        process.stdout.write(data.toString());
+      });
     });
 
     pyProc.stderr.setEncoding('utf8');
@@ -135,6 +144,8 @@ const startChiaDaemon = () => {
     console.log('child process success');
   }
   //pyProc.unref();
+
+  return ready;
 };
 
 module.exports = {
