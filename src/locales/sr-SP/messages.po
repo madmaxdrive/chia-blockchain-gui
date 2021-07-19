@@ -26,7 +26,7 @@ msgstr ""
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
 msgstr "* Желиш да сазнаш више о Chia блоковима? Провери <0>Chia претраживач</0> који је настао од стране програмера отвореног кода."
 
-#: src/components/plot/add/PlotAddNFT.tsx:125
+#: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
 msgstr ""
 
@@ -42,8 +42,8 @@ msgstr "Препоручује се 128 канти"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Сакупљач је услуга која ради на машини на којој се плот(ови) заправо складишти. Фармер и сакупљач разговарају са пуним чвором да би видели стање ланца. У наставку погледај своју мрежу повезаних сакупљача Сазнај више"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:423
+#: src/electron/main.tsx:510
 msgid "About Chia Blockchain"
 msgstr "О Chia блокчејну"
 
@@ -63,7 +63,7 @@ msgstr "Акција"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:83
+#: src/components/fullNode/FullNodeConnections.tsx:82
 #: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "Акције"
@@ -86,8 +86,8 @@ msgstr "Додај плот на чекање"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
 #: src/components/plot/PlotHeader.tsx:63
-#: src/components/plot/add/PlotAdd.tsx:162
-#: src/components/plot/overview/PlotOverviewHero.tsx:49
+#: src/components/plot/add/PlotAdd.tsx:160
+#: src/components/plot/overview/PlotOverviewHero.tsx:54
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -120,7 +120,7 @@ msgstr "Адреса"
 msgid "Address / Puzzle hash"
 msgstr "Адреса / Хеш слагалица"
 
-#: src/components/core/components/Amount/Amount.tsx:98
+#: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
 #: src/components/wallet/WalletHistory.tsx:62
@@ -304,15 +304,15 @@ msgstr ""
 msgid "Change Pool"
 msgstr ""
 
-#: src/electron/main.tsx:401
+#: src/electron/main.tsx:402
 msgid "Chat on KeyBase"
 msgstr "Разговарај на KeyBase-у"
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:420
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:359
 msgid "Chia Blockchain Wiki"
 msgstr "Вики за Chia блокчејн"
 
@@ -399,7 +399,7 @@ msgid "Connect"
 msgstr "Повежи се"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:68
-#: src/components/fullNode/FullNodeConnections.tsx:113
+#: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Connect to other peers"
 msgstr "Повежи се са другим пировима"
 
@@ -425,15 +425,15 @@ msgstr "Статус везе"
 msgid "Connection Status:"
 msgstr "Статус везе:"
 
-#: src/components/fullNode/FullNodeConnections.tsx:76
+#: src/components/fullNode/FullNodeConnections.tsx:75
 msgid "Connection type"
 msgstr "Тип везе"
 
-#: src/components/fullNode/FullNodeConnections.tsx:110
+#: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
 msgstr "Везе"
 
-#: src/electron/main.tsx:382
+#: src/electron/main.tsx:383
 msgid "Contribute on GitHub"
 msgstr "Допринеси на GitHub-у"
 
@@ -453,7 +453,7 @@ msgid "Copy to Clipboard"
 msgstr "Копирај у привремену меморију"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/plot/add/PlotAdd.tsx:179
+#: src/components/plot/add/PlotAdd.tsx:177
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:175
 #: src/components/wallet/create/createExistingColouredCoin.jsx:133
 #: src/components/wallet/create/createNewColouredCoin.jsx:142
@@ -626,11 +626,11 @@ msgstr "Брисање свих кључева уклониће их трајн�
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Брисање ће трајно уклонити кључ са твог рачунара, побрини се да имаш резервне копије. Да ли сигурно желиш да наставиш?"
 
-#: src/electron/main.tsx:304
+#: src/electron/main.tsx:305
 msgid "Developer"
 msgstr "Програмер"
 
-#: src/electron/main.tsx:307
+#: src/electron/main.tsx:308
 msgid "Developer Tools"
 msgstr "Алати за програмера"
 
@@ -664,7 +664,7 @@ msgid "Distributed Identity Options"
 msgstr "Опције Дистрибуираног Идентитета"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:52
-#: src/components/plot/overview/PlotOverviewHero.tsx:59
+#: src/components/plot/overview/PlotOverviewHero.tsx:69
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "Имате ли постојеће плотове на овој машини? <0> Додај каталог плотова </0>"
 
@@ -681,7 +681,7 @@ msgstr "Превуците и испустите датотеку понуде"
 msgid "Drag and drop your backup file"
 msgstr "Превуците и испустите ваш резервни фајл"
 
-#: src/electron/main.tsx:263
+#: src/electron/main.tsx:264
 msgid "Edit"
 msgstr "Уреди"
 
@@ -830,8 +830,8 @@ msgstr "Износ накнада"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:256
+#: src/electron/main.tsx:457
 msgid "File"
 msgstr "Датотека"
 
@@ -850,11 +850,11 @@ msgstr "Коначна локација фолдера"
 msgid "Finished"
 msgstr "Завршено"
 
-#: src/electron/main.tsx:407
+#: src/electron/main.tsx:408
 msgid "Follow on Twitter"
 msgstr "Пратите нас на Твитеру"
 
-#: src/electron/main.tsx:366
+#: src/electron/main.tsx:367
 msgid "Frequently Asked Questions"
 msgstr "Често Постављана Питања"
 
@@ -871,7 +871,7 @@ msgstr ""
 #~ msgid "Full Node Status"
 #~ msgstr "Full Node Status"
 
-#: src/electron/main.tsx:332
+#: src/electron/main.tsx:333
 msgid "Full Screen"
 msgstr "Цео Екран"
 
@@ -909,11 +909,11 @@ msgstr "Хеш код заглавља"
 
 #: src/components/block/Block.jsx:201
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:80
+#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "Висина"
 
-#: src/electron/main.tsx:354
+#: src/electron/main.tsx:355
 msgid "Help"
 msgstr "Помоћ"
 
@@ -934,7 +934,7 @@ msgstr "Историја"
 msgid "Host Name"
 msgstr "Назив хоста"
 
-#: src/components/fullNode/FullNodeConnections.tsx:41
+#: src/components/fullNode/FullNodeConnections.tsx:40
 msgid "IP address"
 msgstr "IP адреса"
 
@@ -1009,7 +1009,7 @@ msgid "Join Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:59
-#: src/components/plot/add/PlotAddNFT.tsx:143
+#: src/components/plot/add/PlotAddNFT.tsx:141
 #: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr ""
@@ -1022,7 +1022,7 @@ msgstr ""
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:135
+#: src/components/plot/add/PlotAddNFT.tsx:133
 msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
@@ -1137,7 +1137,7 @@ msgstr "Управљај наградама"
 msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Управљај циљаним адресама награда"
 
-#: src/components/fullNode/FullNodeConnections.tsx:69
+#: src/components/fullNode/FullNodeConnections.tsx:68
 msgid "MiB Up/Down"
 msgstr "MiB горе/доле"
 
@@ -1211,7 +1211,7 @@ msgstr "Нема приватних кључева за једну или обе
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:37
+#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "ID чвора"
 
@@ -1219,7 +1219,7 @@ msgstr "ID чвора"
 msgid "Node Id"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:88
+#: src/components/plot/add/PlotAddNFT.tsx:86
 msgid "None"
 msgstr ""
 
@@ -1587,7 +1587,7 @@ msgstr ""
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:47
+#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "Порт"
 
@@ -1703,7 +1703,7 @@ msgid "Recover DID wallet"
 msgstr "Опорави DID новчаник"
 
 #: src/components/plot/PlotHeader.tsx:78
-#: src/components/plot/overview/PlotOverviewHero.tsx:52
+#: src/components/plot/overview/PlotOverviewHero.tsx:62
 msgid "Refresh Plots"
 msgstr "Освежи плотове"
 
@@ -1711,7 +1711,7 @@ msgstr "Освежи плотове"
 msgid "Relative Lock Height"
 msgstr ""
 
-#: src/electron/main.tsx:374
+#: src/electron/main.tsx:375
 msgid "Release Notes"
 msgstr "Напомене о издању"
 
@@ -1723,7 +1723,7 @@ msgstr "Уклањање"
 msgid "Rename"
 msgstr "Преименуј"
 
-#: src/electron/main.tsx:393
+#: src/electron/main.tsx:394
 msgid "Report an Issue..."
 msgstr "Пријави проблем..."
 
@@ -1805,11 +1805,11 @@ msgstr "Изабери локацију фолдера где ће готов п
 msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
 msgstr "Изабери локацију фолдера у ком желиш да се плот чува током обраде. Препоручујемо да користиш брзе SSD дискове."
 
-#: src/components/plot/add/PlotAddNFT.tsx:83
+#: src/components/plot/add/PlotAddNFT.tsx:81
 msgid "Select your Plot NFT"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:74
+#: src/components/plot/add/PlotAddNFT.tsx:72
 msgid "Select your Plot NFT from the dropdown or create a new one."
 msgstr ""
 
@@ -1885,7 +1885,7 @@ msgstr ""
 msgid "Something went wrong"
 msgstr ""
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:471
 msgid "Speech"
 msgstr "Говор"
 
@@ -2043,11 +2043,11 @@ msgstr "Чвор није синхронизован"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Чвор се синхронизује, што значи да преузима блокове од осталих чворова да би дошао до последњег блока у ланцу"
 
-#: src/hooks/usePoolInfo.ts:59
+#: src/hooks/usePoolInfo.ts:57
 msgid "The pool URL \"{normalizedUrl}\" is not working. Is it pool? Error: {0}"
 msgstr ""
 
-#: src/hooks/usePoolInfo.ts:44
+#: src/hooks/usePoolInfo.ts:43
 msgid "The pool URL is not valid. {normalizedUrl}"
 msgstr ""
 
@@ -2312,7 +2312,7 @@ msgstr ""
 msgid "Verify Pool Details"
 msgstr ""
 
-#: src/electron/main.tsx:295
+#: src/electron/main.tsx:296
 msgid "View"
 msgstr "Преглед"
 
@@ -2435,7 +2435,7 @@ msgstr "Добродошли! Следеће речи се користе за �
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "Када од админа добијеш пакет информација о подешавању, унеси га испод како би се завршило подешавање ограниченог новчаника:"
 
-#: src/electron/main.tsx:340
+#: src/electron/main.tsx:341
 msgid "Window"
 msgstr "Прозор"
 
@@ -2591,6 +2591,6 @@ msgstr "{currencyCode} укупно Chia са фарме"
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} накнаде за трансакције корисника"
 
-#: src/components/core/components/Amount/Amount.tsx:82
+#: src/components/core/components/Amount/Amount.tsx:80
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr ""

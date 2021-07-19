@@ -15,6 +15,7 @@ const StyledCardTitle = styled(Box)`
 `;
 
 type Props = {
+  className?: string;
   children?: ReactNode;
   title?: ReactNode;
   tooltip?: ReactElement<any>;
@@ -25,7 +26,7 @@ type Props = {
 };
 
 export default function Card(props: Props) {
-  const { children, title, tooltip, actions, gap, interactive, action } = props;
+  const { className, children, title, tooltip, actions, gap, interactive, action } = props;
 
   const headerTitle = tooltip ? (
     <Flex alignItems="center" gap={1}>
@@ -37,7 +38,7 @@ export default function Card(props: Props) {
   );
 
   return (
-    <CardMaterial>
+    <CardMaterial className={className}>
       {title && (
         <StyledCardTitle>
           <Flex gap={2} alignItems="center" flexWrap="wrap">

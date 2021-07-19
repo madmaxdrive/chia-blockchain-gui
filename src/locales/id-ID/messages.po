@@ -26,7 +26,7 @@ msgstr ""
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
 msgstr "*Ingin tahu soal blok Chia lebih jauh? Periksa laman <0>Chia Explorer</0> yang dibuat oleh software sumber terbuka."
 
-#: src/components/plot/add/PlotAddNFT.tsx:125
+#: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
 msgstr ""
 
@@ -42,8 +42,8 @@ msgstr "Disarankan menggunakan 128 bucket"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Harvester adalah layanan yang berjalan pada komputer dimana plot disimpan. Farmer dan Harvester terhubung dengan jaringan untuk memeriksa status rantai. Tampilkan jaringan Harvester terhubung anda di bawah ini Pelajari lebih lanjut"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:423
+#: src/electron/main.tsx:510
 msgid "About Chia Blockchain"
 msgstr "Tentang Chia Blockchain"
 
@@ -63,7 +63,7 @@ msgstr "Tindakan"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:83
+#: src/components/fullNode/FullNodeConnections.tsx:82
 #: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "Tindakan"
@@ -86,8 +86,8 @@ msgstr "Tambahkan Plot ke Antrian"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
 #: src/components/plot/PlotHeader.tsx:63
-#: src/components/plot/add/PlotAdd.tsx:162
-#: src/components/plot/overview/PlotOverviewHero.tsx:49
+#: src/components/plot/add/PlotAdd.tsx:160
+#: src/components/plot/overview/PlotOverviewHero.tsx:54
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -120,7 +120,7 @@ msgstr "Alamat"
 msgid "Address / Puzzle hash"
 msgstr "Alamat / Hash teka-teki"
 
-#: src/components/core/components/Amount/Amount.tsx:98
+#: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
 #: src/components/wallet/WalletHistory.tsx:62
@@ -304,15 +304,15 @@ msgstr ""
 msgid "Change Pool"
 msgstr ""
 
-#: src/electron/main.tsx:401
+#: src/electron/main.tsx:402
 msgid "Chat on KeyBase"
 msgstr "Hubung Chat di KeyBase"
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:420
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:359
 msgid "Chia Blockchain Wiki"
 msgstr "Wiki Chia Blockchain"
 
@@ -399,7 +399,7 @@ msgid "Connect"
 msgstr "Sambung"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:68
-#: src/components/fullNode/FullNodeConnections.tsx:113
+#: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Connect to other peers"
 msgstr "Sambung ke peer lain"
 
@@ -425,15 +425,15 @@ msgstr "Status Koneksi"
 msgid "Connection Status:"
 msgstr "Status Koneksi:"
 
-#: src/components/fullNode/FullNodeConnections.tsx:76
+#: src/components/fullNode/FullNodeConnections.tsx:75
 msgid "Connection type"
 msgstr "Jenis koneksi"
 
-#: src/components/fullNode/FullNodeConnections.tsx:110
+#: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
 msgstr "Koneksi"
 
-#: src/electron/main.tsx:382
+#: src/electron/main.tsx:383
 msgid "Contribute on GitHub"
 msgstr "Berkontribusi di GitHub"
 
@@ -453,7 +453,7 @@ msgid "Copy to Clipboard"
 msgstr "Salin ke Clipboard"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/plot/add/PlotAdd.tsx:179
+#: src/components/plot/add/PlotAdd.tsx:177
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:175
 #: src/components/wallet/create/createExistingColouredCoin.jsx:133
 #: src/components/wallet/create/createNewColouredCoin.jsx:142
@@ -626,11 +626,11 @@ msgstr "Menghapus semua kunci akan menghilangkan kunci-kunci tersebut dari kompu
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Menghapus semua kunci akan menghilangkan kunci-kunci tersebut dari komputer anda, pastikan anda telah memiliki cadangan. Apa anda yakin ingin melanjutkan?"
 
-#: src/electron/main.tsx:304
+#: src/electron/main.tsx:305
 msgid "Developer"
 msgstr "Developer"
 
-#: src/electron/main.tsx:307
+#: src/electron/main.tsx:308
 msgid "Developer Tools"
 msgstr "Developer Tools"
 
@@ -664,7 +664,7 @@ msgid "Distributed Identity Options"
 msgstr "Pilihan Identitas Terdistribusi"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:52
-#: src/components/plot/overview/PlotOverviewHero.tsx:59
+#: src/components/plot/overview/PlotOverviewHero.tsx:69
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "Apakah sudah memiliki plot pada komputer ini? <0>Tambahkan Direktori Plot</0>"
 
@@ -681,7 +681,7 @@ msgstr "Seret dan lepas berkas penawaran"
 msgid "Drag and drop your backup file"
 msgstr "Seret dan lepas berkas cadangan anda"
 
-#: src/electron/main.tsx:263
+#: src/electron/main.tsx:264
 msgid "Edit"
 msgstr "Ubah"
 
@@ -830,8 +830,8 @@ msgstr "Jumlah Biaya"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:256
+#: src/electron/main.tsx:457
 msgid "File"
 msgstr "File"
 
@@ -850,11 +850,11 @@ msgstr "Lokasi folder akhir"
 msgid "Finished"
 msgstr "Selesai"
 
-#: src/electron/main.tsx:407
+#: src/electron/main.tsx:408
 msgid "Follow on Twitter"
 msgstr "Follow di Twitter"
 
-#: src/electron/main.tsx:366
+#: src/electron/main.tsx:367
 msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
 
@@ -871,7 +871,7 @@ msgstr ""
 #~ msgid "Full Node Status"
 #~ msgstr "Full Node Status"
 
-#: src/electron/main.tsx:332
+#: src/electron/main.tsx:333
 msgid "Full Screen"
 msgstr "Layar Penuh"
 
@@ -909,11 +909,11 @@ msgstr "Kepala hash"
 
 #: src/components/block/Block.jsx:201
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:80
+#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "Tinggi"
 
-#: src/electron/main.tsx:354
+#: src/electron/main.tsx:355
 msgid "Help"
 msgstr "Bantuan"
 
@@ -934,7 +934,7 @@ msgstr "Riwayat"
 msgid "Host Name"
 msgstr "Nama Host"
 
-#: src/components/fullNode/FullNodeConnections.tsx:41
+#: src/components/fullNode/FullNodeConnections.tsx:40
 msgid "IP address"
 msgstr "Alamat IP"
 
@@ -1009,7 +1009,7 @@ msgid "Join Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:59
-#: src/components/plot/add/PlotAddNFT.tsx:143
+#: src/components/plot/add/PlotAddNFT.tsx:141
 #: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr ""
@@ -1022,7 +1022,7 @@ msgstr ""
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:135
+#: src/components/plot/add/PlotAddNFT.tsx:133
 msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
@@ -1137,7 +1137,7 @@ msgstr "Kelola Upah Farming"
 msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Kelola Alamat Tujuan Upah Farming Anda"
 
-#: src/components/fullNode/FullNodeConnections.tsx:69
+#: src/components/fullNode/FullNodeConnections.tsx:68
 msgid "MiB Up/Down"
 msgstr "MiB Naik/Turun"
 
@@ -1211,7 +1211,7 @@ msgstr "Tiada kod pribadi untuk satu atau semua alamat. Hanya selamat jika mengh
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:37
+#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "Nod ID"
 
@@ -1219,7 +1219,7 @@ msgstr "Nod ID"
 msgid "Node Id"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:88
+#: src/components/plot/add/PlotAddNFT.tsx:86
 msgid "None"
 msgstr ""
 
@@ -1589,7 +1589,7 @@ msgstr ""
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:47
+#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "Port"
 
@@ -1705,7 +1705,7 @@ msgid "Recover DID wallet"
 msgstr "Mendapatkan kembali dompet DID"
 
 #: src/components/plot/PlotHeader.tsx:78
-#: src/components/plot/overview/PlotOverviewHero.tsx:52
+#: src/components/plot/overview/PlotOverviewHero.tsx:62
 msgid "Refresh Plots"
 msgstr "Segarkan data Plot-Plot"
 
@@ -1713,7 +1713,7 @@ msgstr "Segarkan data Plot-Plot"
 msgid "Relative Lock Height"
 msgstr ""
 
-#: src/electron/main.tsx:374
+#: src/electron/main.tsx:375
 msgid "Release Notes"
 msgstr "Release Notes"
 
@@ -1725,7 +1725,7 @@ msgstr "Menghapus"
 msgid "Rename"
 msgstr "Ubah nama"
 
-#: src/electron/main.tsx:393
+#: src/electron/main.tsx:394
 msgid "Report an Issue..."
 msgstr "Melaporkan sebuah masalah..."
 
@@ -1807,11 +1807,11 @@ msgstr "Pilih tujuan akhir untuk folder dimana plot akan di simpan. Kami saranka
 msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
 msgstr "Pilih tujuan sementara untuk folder dimana Anda ingin plot tersebut tersimpan. Kami menyarankan Anda menggunakan sebuah drive yang cepat."
 
-#: src/components/plot/add/PlotAddNFT.tsx:83
+#: src/components/plot/add/PlotAddNFT.tsx:81
 msgid "Select your Plot NFT"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:74
+#: src/components/plot/add/PlotAddNFT.tsx:72
 msgid "Select your Plot NFT from the dropdown or create a new one."
 msgstr ""
 
@@ -1887,7 +1887,7 @@ msgstr ""
 msgid "Something went wrong"
 msgstr ""
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:471
 msgid "Speech"
 msgstr "Pertuturan"
 
@@ -2045,11 +2045,11 @@ msgstr "Node tidak sinkron"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Node sedang melakukan sinkronisasi, yang berarti node sedang meng unduh blok dari node lainya, untuk mencapai blok terahir dalam rantai"
 
-#: src/hooks/usePoolInfo.ts:59
+#: src/hooks/usePoolInfo.ts:57
 msgid "The pool URL \"{normalizedUrl}\" is not working. Is it pool? Error: {0}"
 msgstr ""
 
-#: src/hooks/usePoolInfo.ts:44
+#: src/hooks/usePoolInfo.ts:43
 msgid "The pool URL is not valid. {normalizedUrl}"
 msgstr ""
 
@@ -2314,7 +2314,7 @@ msgstr ""
 msgid "Verify Pool Details"
 msgstr ""
 
-#: src/electron/main.tsx:295
+#: src/electron/main.tsx:296
 msgid "View"
 msgstr "Lihat"
 
@@ -2437,7 +2437,7 @@ msgstr "Selamat datang! kata-kata frasa ini akan diguna untuk simpanan dompet el
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "Ketika anda menerima paket informasi setup dari administrator, masukan di bawah untuk menyelesaikan setup dompet rate terbatas anda:"
 
-#: src/electron/main.tsx:340
+#: src/electron/main.tsx:341
 msgid "Window"
 msgstr "Jendela"
 
@@ -2593,6 +2593,6 @@ msgstr "{currencyCode} Total Chia yang di-Farm"
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Biaya Transaksi User"
 
-#: src/components/core/components/Amount/Amount.tsx:82
+#: src/components/core/components/Amount/Amount.tsx:80
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr ""

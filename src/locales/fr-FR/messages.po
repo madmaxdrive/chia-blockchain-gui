@@ -26,7 +26,7 @@ msgstr "(Facultatif)"
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
 msgstr "*Vous voulez explorer la blockchain Chia plus en détail ? Consultez <0>Chia Explorer</0> construit par un développeur open source."
 
-#: src/components/plot/add/PlotAddNFT.tsx:125
+#: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
 msgstr "+ Ajouter une nouvelle parcelle NFT"
 
@@ -42,8 +42,8 @@ msgstr "128 buckets sont recommandés"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "Le moissonneur est un service qui tourne sur une machine qui stocke des parcelles. Le fermier et le moissonneur dialoguent avec le full node pour regarder l'état de la chaîne. Regardez votre réseau de moissonneurs connectés ci-dessous. Plus d'informations"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:423
+#: src/electron/main.tsx:510
 msgid "About Chia Blockchain"
 msgstr "À propos de la blockchain Chia"
 
@@ -63,7 +63,7 @@ msgstr "Action"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:83
+#: src/components/fullNode/FullNodeConnections.tsx:82
 #: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "Actions"
@@ -86,8 +86,8 @@ msgstr "Ajouter la parcelle à la file"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
 #: src/components/plot/PlotHeader.tsx:63
-#: src/components/plot/add/PlotAdd.tsx:162
-#: src/components/plot/overview/PlotOverviewHero.tsx:49
+#: src/components/plot/add/PlotAdd.tsx:160
+#: src/components/plot/overview/PlotOverviewHero.tsx:54
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -120,7 +120,7 @@ msgstr "Adresse"
 msgid "Address / Puzzle hash"
 msgstr "Adresse / Puzzle hash"
 
-#: src/components/core/components/Amount/Amount.tsx:98
+#: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
 #: src/components/wallet/WalletHistory.tsx:62
@@ -304,15 +304,15 @@ msgstr "Modifier"
 msgid "Change Pool"
 msgstr "Changer de pool"
 
-#: src/electron/main.tsx:401
+#: src/electron/main.tsx:402
 msgid "Chat on KeyBase"
 msgstr "Chat sur KeyBase"
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:420
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:359
 msgid "Chia Blockchain Wiki"
 msgstr "Wiki de la Chia Blockchain"
 
@@ -399,7 +399,7 @@ msgid "Connect"
 msgstr "Se connecter"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:68
-#: src/components/fullNode/FullNodeConnections.tsx:113
+#: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Connect to other peers"
 msgstr "Se connecter à d'autres pairs"
 
@@ -425,15 +425,15 @@ msgstr "Statut de la connexion"
 msgid "Connection Status:"
 msgstr "Statut de la connexion:"
 
-#: src/components/fullNode/FullNodeConnections.tsx:76
+#: src/components/fullNode/FullNodeConnections.tsx:75
 msgid "Connection type"
 msgstr "Type de connexion"
 
-#: src/components/fullNode/FullNodeConnections.tsx:110
+#: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
 msgstr "Réseau"
 
-#: src/electron/main.tsx:382
+#: src/electron/main.tsx:383
 msgid "Contribute on GitHub"
 msgstr "Contribuer sur GitHub"
 
@@ -453,7 +453,7 @@ msgid "Copy to Clipboard"
 msgstr "Copier dans le presse-papier"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/plot/add/PlotAdd.tsx:179
+#: src/components/plot/add/PlotAdd.tsx:177
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:175
 #: src/components/wallet/create/createExistingColouredCoin.jsx:133
 #: src/components/wallet/create/createNewColouredCoin.jsx:142
@@ -626,11 +626,11 @@ msgstr "Supprimer toutes les clés va supprimer définitivement toutes les clés
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Supprimer la clé va supprimer définitivement la clé de votre ordinateur, assurez vous d'avoir une sauvegarde. Êtes-vous sur de vouloir continuer?"
 
-#: src/electron/main.tsx:304
+#: src/electron/main.tsx:305
 msgid "Developer"
 msgstr "Développeur"
 
-#: src/electron/main.tsx:307
+#: src/electron/main.tsx:308
 msgid "Developer Tools"
 msgstr "Outils Développeur"
 
@@ -664,7 +664,7 @@ msgid "Distributed Identity Options"
 msgstr "Options de l'Identité Décentralisée"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:52
-#: src/components/plot/overview/PlotOverviewHero.tsx:59
+#: src/components/plot/overview/PlotOverviewHero.tsx:69
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "Avez-vous des parcelles existantes sur cette machine ? <0>Ajouter répertoire parcelle</0>"
 
@@ -681,7 +681,7 @@ msgstr "Glisser/Déposer le fichier offre"
 msgid "Drag and drop your backup file"
 msgstr "Glisser-déposer votre fichier de sauvegarde"
 
-#: src/electron/main.tsx:263
+#: src/electron/main.tsx:264
 msgid "Edit"
 msgstr "Éditer"
 
@@ -830,8 +830,8 @@ msgstr "Montant des frais"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:256
+#: src/electron/main.tsx:457
 msgid "File"
 msgstr "Fichier"
 
@@ -850,11 +850,11 @@ msgstr "Emplacement du dossier final"
 msgid "Finished"
 msgstr "Terminé"
 
-#: src/electron/main.tsx:407
+#: src/electron/main.tsx:408
 msgid "Follow on Twitter"
 msgstr "Suivez-nous sur Twitter"
 
-#: src/electron/main.tsx:366
+#: src/electron/main.tsx:367
 msgid "Frequently Asked Questions"
 msgstr "Question fréquentes"
 
@@ -871,7 +871,7 @@ msgstr "Aperçu du nœud complet"
 #~ msgid "Full Node Status"
 #~ msgstr "Full Node Status"
 
-#: src/electron/main.tsx:332
+#: src/electron/main.tsx:333
 msgid "Full Screen"
 msgstr "Plein écran"
 
@@ -909,11 +909,11 @@ msgstr "Hash de l'en-tête"
 
 #: src/components/block/Block.jsx:201
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:80
+#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "Hauteur"
 
-#: src/electron/main.tsx:354
+#: src/electron/main.tsx:355
 msgid "Help"
 msgstr "Aide"
 
@@ -934,7 +934,7 @@ msgstr "Historique"
 msgid "Host Name"
 msgstr "Nom d'hôte"
 
-#: src/components/fullNode/FullNodeConnections.tsx:41
+#: src/components/fullNode/FullNodeConnections.tsx:40
 msgid "IP address"
 msgstr "Adresse IP"
 
@@ -1009,7 +1009,7 @@ msgid "Join Pool"
 msgstr "Rejoindre le pool"
 
 #: src/components/plot/add/PlotAddNFT.tsx:59
-#: src/components/plot/add/PlotAddNFT.tsx:143
+#: src/components/plot/add/PlotAddNFT.tsx:141
 #: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr "Rejoindre un pool"
@@ -1022,7 +1022,7 @@ msgstr "Rejoignez un pool et obtenez des récompenses de culture XCH substantiel
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr "Rejoignez un pool et obtenez des récompenses de culture XCH substantielles. Le rendement moyen est le même, mais il est beaucoup moins volatile. Affectez des parcelles à une parcelle NFT. Vous pourrez facilement changer de pool sans avoir à re-labourer."
 
-#: src/components/plot/add/PlotAddNFT.tsx:135
+#: src/components/plot/add/PlotAddNFT.tsx:133
 msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr "Rejoignez un pool et obtenez des récompenses de culture XCH substantielles. Créez une parcelle NFT et affectez vos nouvelles parcelles à un groupe."
 
@@ -1137,7 +1137,7 @@ msgstr "Gérer les récompenses de culture"
 msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Gérer l'adresse de réception des récompenses de culture"
 
-#: src/components/fullNode/FullNodeConnections.tsx:69
+#: src/components/fullNode/FullNodeConnections.tsx:68
 msgid "MiB Up/Down"
 msgstr "Mio envoyés/reçus"
 
@@ -1211,7 +1211,7 @@ msgstr "Aucune clé privée pour une ou les deux adresses. Sécurisé uniquement
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:37
+#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "ID du nœud"
 
@@ -1219,7 +1219,7 @@ msgstr "ID du nœud"
 msgid "Node Id"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:88
+#: src/components/plot/add/PlotAddNFT.tsx:86
 msgid "None"
 msgstr "Aucun"
 
@@ -1587,7 +1587,7 @@ msgstr ""
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:47
+#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "Port"
 
@@ -1703,7 +1703,7 @@ msgid "Recover DID wallet"
 msgstr "Restaurez portefeuille EDI"
 
 #: src/components/plot/PlotHeader.tsx:78
-#: src/components/plot/overview/PlotOverviewHero.tsx:52
+#: src/components/plot/overview/PlotOverviewHero.tsx:62
 msgid "Refresh Plots"
 msgstr "Actualiser les plots"
 
@@ -1711,7 +1711,7 @@ msgstr "Actualiser les plots"
 msgid "Relative Lock Height"
 msgstr ""
 
-#: src/electron/main.tsx:374
+#: src/electron/main.tsx:375
 msgid "Release Notes"
 msgstr "Release Notes"
 
@@ -1723,7 +1723,7 @@ msgstr "Suppression"
 msgid "Rename"
 msgstr "Renommer"
 
-#: src/electron/main.tsx:393
+#: src/electron/main.tsx:394
 msgid "Report an Issue..."
 msgstr "Remonter un problème..."
 
@@ -1805,11 +1805,11 @@ msgstr "Sélectionner le répertoire de stockage final de vos parcelles. Nous re
 msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
 msgstr "Sélectionner le répertoire temporaire où la parcelle sera stockée. Nous recommandons un disque dur rapide."
 
-#: src/components/plot/add/PlotAddNFT.tsx:83
+#: src/components/plot/add/PlotAddNFT.tsx:81
 msgid "Select your Plot NFT"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:74
+#: src/components/plot/add/PlotAddNFT.tsx:72
 msgid "Select your Plot NFT from the dropdown or create a new one."
 msgstr ""
 
@@ -1885,7 +1885,7 @@ msgstr ""
 msgid "Something went wrong"
 msgstr ""
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:471
 msgid "Speech"
 msgstr "Dicter"
 
@@ -2043,11 +2043,11 @@ msgstr "Le nœud n'est pas synchronisé"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Votre nœud se synchronise, ce qui veut dire qu'il télécharge les blocs depuis les autres nœuds, pour atteindre le dernier bloc de la chaîne"
 
-#: src/hooks/usePoolInfo.ts:59
+#: src/hooks/usePoolInfo.ts:57
 msgid "The pool URL \"{normalizedUrl}\" is not working. Is it pool? Error: {0}"
 msgstr "L'URL du pool \"{normalizedUrl}\" ne fonctionne pas. Est-ce un pool ? Erreur : {0}"
 
-#: src/hooks/usePoolInfo.ts:44
+#: src/hooks/usePoolInfo.ts:43
 msgid "The pool URL is not valid. {normalizedUrl}"
 msgstr ""
 
@@ -2312,7 +2312,7 @@ msgstr "La valeur semble élevée"
 msgid "Verify Pool Details"
 msgstr "Vérifier les détails du pool"
 
-#: src/electron/main.tsx:295
+#: src/electron/main.tsx:296
 msgid "View"
 msgstr "Voir"
 
@@ -2435,7 +2435,7 @@ msgstr "Bienvenue ! Les mots suivants sont utilisés pour la sauvegarde de votre
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "Lorsque vous recevez le paquet d'informations de configuration de votre administrateur, saisissez-le ci-dessous pour terminer la configuration de votre portefeuille à débit limité :"
 
-#: src/electron/main.tsx:340
+#: src/electron/main.tsx:341
 msgid "Window"
 msgstr "Fenêtre"
 
@@ -2591,6 +2591,6 @@ msgstr "{currencyCode} Total de Chia récoltés"
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Frais de transaction utilisateur"
 
-#: src/components/core/components/Amount/Amount.tsx:82
+#: src/components/core/components/Amount/Amount.tsx:80
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr ""

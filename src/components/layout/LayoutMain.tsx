@@ -12,7 +12,6 @@ const StyledContainer = styled(Container)`
 `;
 
 const StyledInnerContainer = styled(Flex)`
-  box-shadow: inset 6px 0 8px -8px rgba(0, 0, 0, 0.2);
   flex-grow: 1;
 `;
 

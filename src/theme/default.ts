@@ -5,12 +5,15 @@ export default {
       contrastText: '#ffffff',
     },
     secondary: {
-      main: '#000000',
+      main: '#222222',
       contrastText: '#ffffff',
     },
     danger: {
       main: '#dc3545',
       contrastText: '#ffffff',
+    },
+    background: {
+      paper: 'transparent',
     },
   },
   drawer: {

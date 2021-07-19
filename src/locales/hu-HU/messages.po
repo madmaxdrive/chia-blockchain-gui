@@ -26,7 +26,7 @@ msgstr "(nem kötelező)"
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
 msgstr "Fel szeretnéd fedezni a Chia rendszerét bővebben? Nézd meg a <0> Chia Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
 
-#: src/components/plot/add/PlotAddNFT.tsx:125
+#: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
 msgstr ""
 
@@ -42,8 +42,8 @@ msgstr "Az ajánlott vödrök száma 128"
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "A betakarító egy szolgáltatás ahol a parcellák valójában tárolásra kerülnek. A gazdász és a betakarító kommunikációjából kivehető egy teljes rész, hogy látható legyen miként is áll a lánc. Alább láthatód azokat a betakarítókat akik a hálózatodhoz vannak csatlakozva. Tudj meg többet"
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:423
+#: src/electron/main.tsx:510
 msgid "About Chia Blockchain"
 msgstr "A Chia Blockchain-ről"
 
@@ -63,7 +63,7 @@ msgstr "Művelet"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:83
+#: src/components/fullNode/FullNodeConnections.tsx:82
 #: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "Műveletek"
@@ -86,8 +86,8 @@ msgstr "Plot hozzáadása a sorhoz"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
 #: src/components/plot/PlotHeader.tsx:63
-#: src/components/plot/add/PlotAdd.tsx:162
-#: src/components/plot/overview/PlotOverviewHero.tsx:49
+#: src/components/plot/add/PlotAdd.tsx:160
+#: src/components/plot/overview/PlotOverviewHero.tsx:54
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -120,7 +120,7 @@ msgstr "Cím"
 msgid "Address / Puzzle hash"
 msgstr "Cím / Kirakós hash"
 
-#: src/components/core/components/Amount/Amount.tsx:98
+#: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
 #: src/components/wallet/WalletHistory.tsx:62
@@ -304,15 +304,15 @@ msgstr "Módosítás"
 msgid "Change Pool"
 msgstr ""
 
-#: src/electron/main.tsx:401
+#: src/electron/main.tsx:402
 msgid "Chat on KeyBase"
 msgstr "Csevegés a KeyBase-n"
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:420
 msgid "Chia"
 msgstr "Chia"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:359
 msgid "Chia Blockchain Wiki"
 msgstr "Chia Blokklánc Wiki"
 
@@ -399,7 +399,7 @@ msgid "Connect"
 msgstr "Csatlakozás"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:68
-#: src/components/fullNode/FullNodeConnections.tsx:113
+#: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Connect to other peers"
 msgstr "Csatlakozás másokhoz"
 
@@ -425,15 +425,15 @@ msgstr "Kapcsolat állapota"
 msgid "Connection Status:"
 msgstr "A kapcsolat állapota:"
 
-#: src/components/fullNode/FullNodeConnections.tsx:76
+#: src/components/fullNode/FullNodeConnections.tsx:75
 msgid "Connection type"
 msgstr "A kapcsolat típusa"
 
-#: src/components/fullNode/FullNodeConnections.tsx:110
+#: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
 msgstr "Kapcsolatok"
 
-#: src/electron/main.tsx:382
+#: src/electron/main.tsx:383
 msgid "Contribute on GitHub"
 msgstr "Közreműködés a GitHub-on"
 
@@ -453,7 +453,7 @@ msgid "Copy to Clipboard"
 msgstr "Másolás a vágólapra"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/plot/add/PlotAdd.tsx:179
+#: src/components/plot/add/PlotAdd.tsx:177
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:175
 #: src/components/wallet/create/createExistingColouredCoin.jsx:133
 #: src/components/wallet/create/createNewColouredCoin.jsx:142
@@ -626,11 +626,11 @@ msgstr "Az összes kulcs törlése véglegesen eltávolítja a kulcsokat a szám
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "A kulcs törlése véglegesen eltávolítja a kulcsot a számítógépedről, ezért gondoskodj biztonsági mentésről. Biztos, hogy folytatni szeretnéd?"
 
-#: src/electron/main.tsx:304
+#: src/electron/main.tsx:305
 msgid "Developer"
 msgstr "Fejlesztő"
 
-#: src/electron/main.tsx:307
+#: src/electron/main.tsx:308
 msgid "Developer Tools"
 msgstr "Fejlesztői eszközök"
 
@@ -664,7 +664,7 @@ msgid "Distributed Identity Options"
 msgstr "Elosztott azonosítási lehetőségek"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:52
-#: src/components/plot/overview/PlotOverviewHero.tsx:59
+#: src/components/plot/overview/PlotOverviewHero.tsx:69
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "Vannak meglévő parcellák ezen a gépen? <0>Parcella könyvtár Hozzáadása </0>"
 
@@ -681,7 +681,7 @@ msgstr "Húzza ide az ajánlatfájlt"
 msgid "Drag and drop your backup file"
 msgstr "Húzza ide a mentett fájlt"
 
-#: src/electron/main.tsx:263
+#: src/electron/main.tsx:264
 msgid "Edit"
 msgstr "Módosítás"
 
@@ -830,8 +830,8 @@ msgstr "Díjak összege"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:256
+#: src/electron/main.tsx:457
 msgid "File"
 msgstr "Fájl"
 
@@ -850,11 +850,11 @@ msgstr "Végleges mappa helye"
 msgid "Finished"
 msgstr "Befejezve"
 
-#: src/electron/main.tsx:407
+#: src/electron/main.tsx:408
 msgid "Follow on Twitter"
 msgstr "Kövess minket a Twitteren"
 
-#: src/electron/main.tsx:366
+#: src/electron/main.tsx:367
 msgid "Frequently Asked Questions"
 msgstr "Gyakran Ismételt Kérdések"
 
@@ -871,7 +871,7 @@ msgstr ""
 #~ msgid "Full Node Status"
 #~ msgstr "Full Node Status"
 
-#: src/electron/main.tsx:332
+#: src/electron/main.tsx:333
 msgid "Full Screen"
 msgstr "Teljes képernyő"
 
@@ -909,11 +909,11 @@ msgstr "Fejléc Hash"
 
 #: src/components/block/Block.jsx:201
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:80
+#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "Magasság"
 
-#: src/electron/main.tsx:354
+#: src/electron/main.tsx:355
 msgid "Help"
 msgstr "Súgó"
 
@@ -934,7 +934,7 @@ msgstr "Előzmény"
 msgid "Host Name"
 msgstr "Kiszolgáló neve"
 
-#: src/components/fullNode/FullNodeConnections.tsx:41
+#: src/components/fullNode/FullNodeConnections.tsx:40
 msgid "IP address"
 msgstr "IP-cím"
 
@@ -1009,7 +1009,7 @@ msgid "Join Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:59
-#: src/components/plot/add/PlotAddNFT.tsx:143
+#: src/components/plot/add/PlotAddNFT.tsx:141
 #: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr ""
@@ -1022,7 +1022,7 @@ msgstr ""
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:135
+#: src/components/plot/add/PlotAddNFT.tsx:133
 msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
@@ -1137,7 +1137,7 @@ msgstr "A gazdálkodási jutalmak kezelése"
 msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Kezelje a gazdálkodási jutalmak célcímeit"
 
-#: src/components/fullNode/FullNodeConnections.tsx:69
+#: src/components/fullNode/FullNodeConnections.tsx:68
 msgid "MiB Up/Down"
 msgstr "MiB Feltöltés/Letöltés"
 
@@ -1211,7 +1211,7 @@ msgstr "Hiányoz(nak) a cím(ek)hez tartozó privát kulcs(ok). Csak akkor bizto
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:37
+#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "Node azonosító"
 
@@ -1219,7 +1219,7 @@ msgstr "Node azonosító"
 msgid "Node Id"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:88
+#: src/components/plot/add/PlotAddNFT.tsx:86
 msgid "None"
 msgstr ""
 
@@ -1587,7 +1587,7 @@ msgstr ""
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:47
+#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "Port"
 
@@ -1703,7 +1703,7 @@ msgid "Recover DID wallet"
 msgstr "DID pénztárca visszaállítása"
 
 #: src/components/plot/PlotHeader.tsx:78
-#: src/components/plot/overview/PlotOverviewHero.tsx:52
+#: src/components/plot/overview/PlotOverviewHero.tsx:62
 msgid "Refresh Plots"
 msgstr "Cserepek frissítése"
 
@@ -1711,7 +1711,7 @@ msgstr "Cserepek frissítése"
 msgid "Relative Lock Height"
 msgstr ""
 
-#: src/electron/main.tsx:374
+#: src/electron/main.tsx:375
 msgid "Release Notes"
 msgstr "Kiadási megjegyzések"
 
@@ -1723,7 +1723,7 @@ msgstr "Eltávolítás"
 msgid "Rename"
 msgstr "Átnevezés"
 
-#: src/electron/main.tsx:393
+#: src/electron/main.tsx:394
 msgid "Report an Issue..."
 msgstr "Hibabejelentés..."
 
@@ -1805,11 +1805,11 @@ msgstr "Válassza ki a mappát, ahol a cserepek végső tárolóhelye lesz. Java
 msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
 msgstr "Válaszd ki a mappát, ahol a plotok átmeneti tárolóhelye lesz. Javasoljuk gyors SSD használatát."
 
-#: src/components/plot/add/PlotAddNFT.tsx:83
+#: src/components/plot/add/PlotAddNFT.tsx:81
 msgid "Select your Plot NFT"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:74
+#: src/components/plot/add/PlotAddNFT.tsx:72
 msgid "Select your Plot NFT from the dropdown or create a new one."
 msgstr ""
 
@@ -1885,7 +1885,7 @@ msgstr ""
 msgid "Something went wrong"
 msgstr "Hiba történt"
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:471
 msgid "Speech"
 msgstr "Beszéd"
 
@@ -2043,11 +2043,11 @@ msgstr "A node nincs szinkronizálva"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "A node szinkronizál, azaz más csomópontokról tölt le blokkokat amíg eléri a legfrissebb blokkot a blokkláncon"
 
-#: src/hooks/usePoolInfo.ts:59
+#: src/hooks/usePoolInfo.ts:57
 msgid "The pool URL \"{normalizedUrl}\" is not working. Is it pool? Error: {0}"
 msgstr ""
 
-#: src/hooks/usePoolInfo.ts:44
+#: src/hooks/usePoolInfo.ts:43
 msgid "The pool URL is not valid. {normalizedUrl}"
 msgstr ""
 
@@ -2314,7 +2314,7 @@ msgstr ""
 msgid "Verify Pool Details"
 msgstr ""
 
-#: src/electron/main.tsx:295
+#: src/electron/main.tsx:296
 msgid "View"
 msgstr "Nézet"
 
@@ -2437,7 +2437,7 @@ msgstr "Üdvözöljük! A pénztárca biztonsági mentéséhez a következő sza
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "Amikor az admin-tól megkapod a beállításokhoz szükséges információs csomagot, írd be alább, hogy befejezd a korlátozott arányú tárcád beállítását:"
 
-#: src/electron/main.tsx:340
+#: src/electron/main.tsx:341
 msgid "Window"
 msgstr "Ablak"
 
@@ -2593,6 +2593,6 @@ msgstr "Teljes farmolt Chia mennyiség {currencyCode}"
 msgid "{currencyCode} User Transaction Fees"
 msgstr "Felhasználói tranzakciós díjak {currencyCode}"
 
-#: src/components/core/components/Amount/Amount.tsx:82
+#: src/components/core/components/Amount/Amount.tsx:80
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr ""

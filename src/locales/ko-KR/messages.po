@@ -26,7 +26,7 @@ msgstr ""
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
 msgstr "Chia의 블록을 더 탐험하고 싶으십니까? 오픈 소스 개발자가 만든 <0>Chia Explorer</0>를 확인하세요."
 
-#: src/components/plot/add/PlotAddNFT.tsx:125
+#: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
 msgstr ""
 
@@ -42,8 +42,8 @@ msgstr "128의 버킷을 권장합니다."
 msgid "A harvester is a service running on a machine where plot(s) are actually stored. A farmer and harvester talk to a full node to see the state of the chain. View your network of connected harvesters below Learn more"
 msgstr "수확기는 플롯이 실제 저장되어 구동되는 기기입니다. 파머와 수확기는 전체 체인의 상황을 풀 노드를 통해 확인합니다. 아래의 더 보기 버튼을 눌러, 네트워크에 연결된 수확기를 확인하십시오."
 
-#: src/electron/main.tsx:422
-#: src/electron/main.tsx:509
+#: src/electron/main.tsx:423
+#: src/electron/main.tsx:510
 msgid "About Chia Blockchain"
 msgstr "치아 블록체인에 대하여"
 
@@ -63,7 +63,7 @@ msgstr "행동"
 
 #: src/components/farm/FarmFullNodeConnections.tsx:67
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:67
-#: src/components/fullNode/FullNodeConnections.tsx:83
+#: src/components/fullNode/FullNodeConnections.tsx:82
 #: src/components/pool/PoolOverview.tsx:69
 msgid "Actions"
 msgstr "행동들"
@@ -86,8 +86,8 @@ msgstr "플롯을 대기열에 추가"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
 #: src/components/plot/PlotHeader.tsx:63
-#: src/components/plot/add/PlotAdd.tsx:162
-#: src/components/plot/overview/PlotOverviewHero.tsx:49
+#: src/components/plot/add/PlotAdd.tsx:160
+#: src/components/plot/overview/PlotOverviewHero.tsx:54
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -120,7 +120,7 @@ msgstr "주소"
 msgid "Address / Puzzle hash"
 msgstr "주소 / 퍼즐 해시"
 
-#: src/components/core/components/Amount/Amount.tsx:98
+#: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
 #: src/components/wallet/WalletHistory.tsx:62
@@ -304,15 +304,15 @@ msgstr ""
 msgid "Change Pool"
 msgstr ""
 
-#: src/electron/main.tsx:401
+#: src/electron/main.tsx:402
 msgid "Chat on KeyBase"
 msgstr "키베이스에서 채팅하기"
 
-#: src/electron/main.tsx:419
+#: src/electron/main.tsx:420
 msgid "Chia"
 msgstr "치아"
 
-#: src/electron/main.tsx:358
+#: src/electron/main.tsx:359
 msgid "Chia Blockchain Wiki"
 msgstr "치아 블록체인 위키"
 
@@ -399,7 +399,7 @@ msgid "Connect"
 msgstr "연결"
 
 #: src/components/fullNode/FullNodeAddConnection.tsx:68
-#: src/components/fullNode/FullNodeConnections.tsx:113
+#: src/components/fullNode/FullNodeConnections.tsx:112
 msgid "Connect to other peers"
 msgstr "다른 피어에 연결"
 
@@ -425,15 +425,15 @@ msgstr "연결 상태"
 msgid "Connection Status:"
 msgstr "연결 상태:"
 
-#: src/components/fullNode/FullNodeConnections.tsx:76
+#: src/components/fullNode/FullNodeConnections.tsx:75
 msgid "Connection type"
 msgstr "연결 유형"
 
-#: src/components/fullNode/FullNodeConnections.tsx:110
+#: src/components/fullNode/FullNodeConnections.tsx:109
 msgid "Connections"
 msgstr "연결"
 
-#: src/electron/main.tsx:382
+#: src/electron/main.tsx:383
 msgid "Contribute on GitHub"
 msgstr "GitHub에서 기여"
 
@@ -453,7 +453,7 @@ msgid "Copy to Clipboard"
 msgstr "클립보드에 복사"
 
 #: src/components/backup/BackupCreate.tsx:78
-#: src/components/plot/add/PlotAdd.tsx:179
+#: src/components/plot/add/PlotAdd.tsx:177
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:175
 #: src/components/wallet/create/createExistingColouredCoin.jsx:133
 #: src/components/wallet/create/createNewColouredCoin.jsx:142
@@ -626,11 +626,11 @@ msgstr "모든 키를 컴퓨터에서 영구적으로 제거합니다. 만일을
 msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "이 키를 컴퓨터에서 영구적으로 삭제합니다. 만일을 대비하여 백업이 되어 있는지 확인하십시오. 계속하시겠습니까?"
 
-#: src/electron/main.tsx:304
+#: src/electron/main.tsx:305
 msgid "Developer"
 msgstr "개발자"
 
-#: src/electron/main.tsx:307
+#: src/electron/main.tsx:308
 msgid "Developer Tools"
 msgstr "개발자 도구"
 
@@ -664,7 +664,7 @@ msgid "Distributed Identity Options"
 msgstr "분산 Id 옵션"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:52
-#: src/components/plot/overview/PlotOverviewHero.tsx:59
+#: src/components/plot/overview/PlotOverviewHero.tsx:69
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "이 장치에 플롯 파일이 있습니까? <0>플롯 경로 추가하기</0>"
 
@@ -681,7 +681,7 @@ msgstr "거래 파일을 끌어서 여기에 놓으세요"
 msgid "Drag and drop your backup file"
 msgstr "백업 파일을 끌어 놓으세요"
 
-#: src/electron/main.tsx:263
+#: src/electron/main.tsx:264
 msgid "Edit"
 msgstr "편집"
 
@@ -830,8 +830,8 @@ msgstr "수수료 금액"
 #~ msgid "Fees Puzzle Hash"
 #~ msgstr ""
 
-#: src/electron/main.tsx:255
-#: src/electron/main.tsx:456
+#: src/electron/main.tsx:256
+#: src/electron/main.tsx:457
 msgid "File"
 msgstr "파일"
 
@@ -850,11 +850,11 @@ msgstr "최종 폴더 위치"
 msgid "Finished"
 msgstr "완료됨"
 
-#: src/electron/main.tsx:407
+#: src/electron/main.tsx:408
 msgid "Follow on Twitter"
 msgstr "트위터 팔로우하기"
 
-#: src/electron/main.tsx:366
+#: src/electron/main.tsx:367
 msgid "Frequently Asked Questions"
 msgstr "자주 묻는 질문"
 
@@ -871,7 +871,7 @@ msgstr ""
 #~ msgid "Full Node Status"
 #~ msgstr "Full Node Status"
 
-#: src/electron/main.tsx:332
+#: src/electron/main.tsx:333
 msgid "Full Screen"
 msgstr "전체 화면"
 
@@ -909,11 +909,11 @@ msgstr "해더 해시"
 
 #: src/components/block/Block.jsx:201
 #: src/components/fullNode/FullNode.jsx:81
-#: src/components/fullNode/FullNodeConnections.tsx:80
+#: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
 msgstr "높이"
 
-#: src/electron/main.tsx:354
+#: src/electron/main.tsx:355
 msgid "Help"
 msgstr "도움말"
 
@@ -934,7 +934,7 @@ msgstr "이력"
 msgid "Host Name"
 msgstr "호스트 이름"
 
-#: src/components/fullNode/FullNodeConnections.tsx:41
+#: src/components/fullNode/FullNodeConnections.tsx:40
 msgid "IP address"
 msgstr "IP 주소"
 
@@ -1009,7 +1009,7 @@ msgid "Join Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:59
-#: src/components/plot/add/PlotAddNFT.tsx:143
+#: src/components/plot/add/PlotAddNFT.tsx:141
 #: src/components/pool/PoolHero.tsx:31
 msgid "Join a Pool"
 msgstr ""
@@ -1022,7 +1022,7 @@ msgstr ""
 msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:135
+#: src/components/plot/add/PlotAddNFT.tsx:133
 msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
@@ -1137,7 +1137,7 @@ msgstr "채굴 보상 관리"
 msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "채굴 보상 타겟 경로 관리"
 
-#: src/components/fullNode/FullNodeConnections.tsx:69
+#: src/components/fullNode/FullNodeConnections.tsx:68
 msgid "MiB Up/Down"
 msgstr "MiB 업로드/다운로드"
 
@@ -1211,7 +1211,7 @@ msgstr "주소란 한 쪽이나 양쪽에 개인 키를 넣지 마십시오. 다
 
 #: src/components/farm/FarmFullNodeConnections.tsx:32
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:32
-#: src/components/fullNode/FullNodeConnections.tsx:37
+#: src/components/fullNode/FullNodeConnections.tsx:36
 msgid "Node ID"
 msgstr "노드 ID"
 
@@ -1219,7 +1219,7 @@ msgstr "노드 ID"
 msgid "Node Id"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:88
+#: src/components/plot/add/PlotAddNFT.tsx:86
 msgid "None"
 msgstr ""
 
@@ -1587,7 +1587,7 @@ msgstr ""
 #: src/components/farm/FarmFullNodeConnections.tsx:42
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:42
 #: src/components/fullNode/FullNodeAddConnection.tsx:80
-#: src/components/fullNode/FullNodeConnections.tsx:47
+#: src/components/fullNode/FullNodeConnections.tsx:46
 msgid "Port"
 msgstr "포트"
 
@@ -1703,7 +1703,7 @@ msgid "Recover DID wallet"
 msgstr "DID 지갑 찾기"
 
 #: src/components/plot/PlotHeader.tsx:78
-#: src/components/plot/overview/PlotOverviewHero.tsx:52
+#: src/components/plot/overview/PlotOverviewHero.tsx:62
 msgid "Refresh Plots"
 msgstr "Plots 새로고침"
 
@@ -1711,7 +1711,7 @@ msgstr "Plots 새로고침"
 msgid "Relative Lock Height"
 msgstr ""
 
-#: src/electron/main.tsx:374
+#: src/electron/main.tsx:375
 msgid "Release Notes"
 msgstr "릴리스 노트"
 
@@ -1723,7 +1723,7 @@ msgstr "제거"
 msgid "Rename"
 msgstr "이름 바꾸기"
 
-#: src/electron/main.tsx:393
+#: src/electron/main.tsx:394
 msgid "Report an Issue..."
 msgstr "문제 보고하기..."
 
@@ -1805,11 +1805,11 @@ msgstr "플롯이 최종 저장될 폴더를 지정하십시오. 용량이 크�
 msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
 msgstr "플롯 생성에 필요한 임시 공간 폴더를 지정하십시오. 속도가 빠른 드라이브를 권장합니다."
 
-#: src/components/plot/add/PlotAddNFT.tsx:83
+#: src/components/plot/add/PlotAddNFT.tsx:81
 msgid "Select your Plot NFT"
 msgstr ""
 
-#: src/components/plot/add/PlotAddNFT.tsx:74
+#: src/components/plot/add/PlotAddNFT.tsx:72
 msgid "Select your Plot NFT from the dropdown or create a new one."
 msgstr ""
 
@@ -1885,7 +1885,7 @@ msgstr ""
 msgid "Something went wrong"
 msgstr ""
 
-#: src/electron/main.tsx:470
+#: src/electron/main.tsx:471
 msgid "Speech"
 msgstr "말하다"
 
@@ -2043,11 +2043,11 @@ msgstr "노드가 동기화되지 않았습니다"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "노드가 동기화 중입니다. 즉, 체인의 최신 블록에 도달하기 위해 다른 노드에서 블록을 다운로드하고 있습니다."
 
-#: src/hooks/usePoolInfo.ts:59
+#: src/hooks/usePoolInfo.ts:57
 msgid "The pool URL \"{normalizedUrl}\" is not working. Is it pool? Error: {0}"
 msgstr ""
 
-#: src/hooks/usePoolInfo.ts:44
+#: src/hooks/usePoolInfo.ts:43
 msgid "The pool URL is not valid. {normalizedUrl}"
 msgstr ""
 
@@ -2312,7 +2312,7 @@ msgstr ""
 msgid "Verify Pool Details"
 msgstr ""
 
-#: src/electron/main.tsx:295
+#: src/electron/main.tsx:296
 msgid "View"
 msgstr "보기"
 
@@ -2435,7 +2435,7 @@ msgstr "환영합니다. 다음의 단어들은 당신의 지갑 백업에 사�
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
 msgstr "관리자로부터 설정 정보 패킷을 받으면 아래에 입력하여 비율 제한 지갑 설정을 완료하세요."
 
-#: src/electron/main.tsx:340
+#: src/electron/main.tsx:341
 msgid "Window"
 msgstr "창"
 
@@ -2591,6 +2591,6 @@ msgstr "{currencyCode} 채굴된 총 Chia"
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} 사용자 거래 수수료"
 
-#: src/components/core/components/Amount/Amount.tsx:82
+#: src/components/core/components/Amount/Amount.tsx:80
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr ""

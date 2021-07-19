@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Route, Switch, useRouteMatch } from 'react-router';
-import { AppBar, Toolbar, Drawer, Divider } from '@material-ui/core';
+import { AppBar, Toolbar, Drawer } from '@material-ui/core';
 import {
   DarkModeToggle,
   LocaleToggle,
@@ -16,6 +16,7 @@ import Plot from '../plot/Plot';
 import Farm from '../farm/Farm';
 import Pool from '../pool/Pool';
 import Block from '../block/Block';
+import DashboardMargin from './DashboardMargin';
 import DashboardSideBar from './DashboardSideBar';
 import { DashboardTitleTarget } from './DashboardTitle';
 import TradeManager from '../trading/TradeManager';
@@ -23,13 +24,11 @@ import BackupCreate from '../backup/BackupCreate';
 
 const StyledRoot = styled(Flex)`
   height: 100%;
+  background: ${({ theme }) => theme.palette.type === 'dark' ? 'linear-gradient(to bottom, #2b2549, #272042)' : 'linear-gradient(to bottom, #fbf8fd, #f5fafe)'};
   // overflow: hidden;
 `;
 
 const StyledAppBar = styled(AppBar)`
-  background-color: ${({ theme }) =>
-    theme.palette.type === 'dark' ? '#424242' : 'white'};
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
   width: ${({ theme }) => `calc(100% - ${theme.drawer.width})`};
   margin-left: ${({ theme }) => theme.drawer.width};
   z-index: ${({ theme }) => theme.zIndex.drawer + 1};
@@ -42,11 +41,13 @@ const StyledDrawer = styled(Drawer)`
 
   > div {
     width: ${({ theme }) => theme.drawer.width};
+    border: none;
   }
 `;
 
 const StyledBody = styled(Flex)`
   min-width: 0;
+  background: ${({ theme }) => theme.palette.type === 'dark' ? 'rgba(19, 12, 44, .2)' : '#ffffff'};
 `;
 
 const StyledBrandWrapper = styled(Flex)`
@@ -75,7 +76,6 @@ export default function Dashboard() {
         <StyledBrandWrapper>
           <Logo width={2 / 3} />
         </StyledBrandWrapper>
-        <Divider />
         <DashboardSideBar />
       </StyledDrawer>
       <StyledBody flexDirection="column" flexGrow={1}>
@@ -104,6 +104,7 @@ export default function Dashboard() {
           </Route>
         </Switch>
       </StyledBody>
+      <DashboardMargin />
     </StyledRoot>
   );
 }
